@@ -89,12 +89,21 @@
   <div class="project-grid">
       <div class="project-card">
         <div class="media video-rect">
-        <video preload="metadata" aria-label="HBV assembly and CpAM antivirals movie" muted loop playsinline>
-          <source src="videos/HBV_T4-main.mp4" type="video/mp4">
-          Your browser does not support the video tag. Watch the movie
-          <a href="videos/HBV_T4-main.mp4">here</a>.
-        </video>
-      </div>
+  <video
+    autoplay
+    muted
+    loop
+    playsinline
+    preload="metadata"
+    aria-label="HBV assembly and CpAM antivirals movie"
+    width="100%"
+    poster="images/hbv-thumb.jpg"  <!-- optional -->
+  >
+    <source src="/videos/HBV_T4-main.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+    Watch the movie <a href="/videos/HBV_T4-main.mp4">here</a>.
+  </video>
+        </div>
       <h4>Multiscale modeling of hepatitis B virus</h4>
       <p>Mapped HBV capsid assembly pathways and antiviral drug mechanisms.</p>
       <p><a href="https://github.com/farrimoh/HEVA">Repository</a></p>
@@ -261,4 +270,5 @@
 </script>
 </body>
 </html>
+
 
